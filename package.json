@@ -1,0 +1,25 @@
+{
+  "name": "todopila-node",
+  "version": "0.0.1",
+  "description": "ToDo Pila! for your pile of todos.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "pila",
+    "utils"
+  ],
+  "author": "Adam Sommer",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "multer": "^1.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
